@@ -1,0 +1,251 @@
+{
+    "name": "Pharmacist",
+    "sourceDir": ".",
+    "targetDir": "Pharmacist",
+    "url": "https://github.com/fluffy-mods/Pharmacist",
+    "version": {
+        "major": 3,
+        "minor": 3,
+        "build": 150
+    },
+    "author": {
+        "name": "Fluffy",
+        "url": "https://github.com/fluffy-mods/",
+        "email": "fluffy.l2032@gmail.com"
+    },
+    "git": {
+        "owner": "fluffy-mods",
+        "repo": "Pharmacist",
+        "url": "https://github.com/fluffy-mods/Pharmacist"
+    },
+    "dependencies": [
+        {
+            "type": "required",
+            "id": "brrainz.harmony",
+            "name": "Harmony",
+            "steamId": 2009463077,
+            "download": "https://github.com/pardeike/HarmonyRimWorld/releases/latest"
+        }
+    ],
+    "changelog": [
+        {
+            "date": "2022-02-26T16:08:11.000Z",
+            "message": "Update description",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "63a0ef6f8bc315edb4c59105f4a001f4c401e046"
+        },
+        {
+            "date": "2021-08-27T22:10:06.000Z",
+            "message": "fix tending and interaction error",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "a2ba778c82d1528f0c57eaf17d5f7a78f4cd9a2e"
+        },
+        {
+            "date": "2021-08-14T17:49:42.000Z",
+            "message": "try to use medicine in inventory first",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "4967faf00f4372d46ce14e810ff624075fa5dedf"
+        },
+        {
+            "date": "2021-08-14T15:34:37.000Z",
+            "message": "add new preview image",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "ff55e2f072e42d0f4b4d2ed1fd725e7cafdea5f5"
+        },
+        {
+            "date": "2021-08-14T14:46:24.000Z",
+            "message": "add traditional Chinese and Italian translations",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "19e6880d8252f59d29598cff409d161271639520"
+        },
+        {
+            "date": "2021-08-14T14:42:31.000Z",
+            "message": "Traditional Chinese translation",
+            "author": {
+                "name": "gast",
+                "email": "39412432+shiuanyue@users.noreply.github.com"
+            },
+            "hash": "3df508b6b8859f19aa55ea825fdeca4d0da0e2a9"
+        },
+        {
+            "date": "2021-08-14T14:41:42.000Z",
+            "message": "Italian translation",
+            "author": {
+                "name": "kenciccio",
+                "email": "76808284+kenciccio@users.noreply.github.com"
+            },
+            "hash": "b2906e787c0ef75c2eb19eccc1bda98009589f90"
+        },
+        {
+            "date": "2021-08-14T14:40:46.000Z",
+            "message": "add skizix to contributors for testing",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "7c1561afdee8f45304b74636327b5ce0b4462f17"
+        },
+        {
+            "date": "2021-08-14T14:36:40.000Z",
+            "message": "project modernization, initial 1.3 update",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "619d14e9ccb5ea07d7e370a87a27236f0cef07af"
+        }
+    ],
+    "contributions": [
+        {
+            "hash": "264d156643cf7ad1192349488e2f81b279f69633",
+            "author": "dodther",
+            "description": "Russian translation"
+        },
+        {
+            "hash": "f5a9af69e7dd1da3f1ebecd12b6582cbc0839703",
+            "author": "CrapoFR",
+            "description": "French translation"
+        },
+        {
+            "hash": "55a91bfff3e7ae2a10317d7fb55e1302e26a2933",
+            "author": "MrCaka",
+            "description": "Brazilian Portuguese translation"
+        },
+        {
+            "hash": "332161e8eab6ddb26a25a2b8ff5fe4eaa98c5535",
+            "author": "chrisxlite",
+            "description": "Simplified Chinese translation"
+        },
+        {
+            "hash": "e4cc7c066e1394de6119a85e654d966c0fb70220",
+            "author": "53N4",
+            "description": "Spanish translation"
+        },
+        {
+            "hash": "c1b1951d2f6825232eb970b134340f9b145bbc29",
+            "author": "SteamJay",
+            "description": "Swedish translation"
+        },
+        {
+            "hash": "3a3e4a78dd92bb580dea16ef8316435800d2d3b2",
+            "author": "Dango998",
+            "description": "Simplified Chinese translation"
+        },
+        {
+            "hash": "3df508b6b8859f19aa55ea825fdeca4d0da0e2a9",
+            "author": "gast",
+            "description": "Traditional Chinese translation"
+        },
+        {
+            "hash": "b2906e787c0ef75c2eb19eccc1bda98009589f90",
+            "author": "kenciccio",
+            "description": "Italian translation"
+        }
+    ],
+    "contributors": {
+        "dodther": [
+            {
+                "hash": "264d156",
+                "author": "dodther",
+                "description": "Russian translation"
+            }
+        ],
+        "CrapoFR": [
+            {
+                "hash": "f5a9af6",
+                "author": "CrapoFR",
+                "description": "French translation"
+            }
+        ],
+        "MrCaka": [
+            {
+                "hash": "55a91bf",
+                "author": "MrCaka",
+                "description": "Brazilian Portuguese translation"
+            }
+        ],
+        "chrisxlite": [
+            {
+                "hash": "332161e",
+                "author": "chrisxlite",
+                "description": "Simplified Chinese translation"
+            }
+        ],
+        "53N4": [
+            {
+                "hash": "e4cc7c0",
+                "author": "53N4",
+                "description": "Spanish translation"
+            }
+        ],
+        "SteamJay": [
+            {
+                "hash": "c1b1951",
+                "author": "SteamJay",
+                "description": "Swedish translation"
+            }
+        ],
+        "Dango998": [
+            {
+                "hash": "3a3e4a7",
+                "author": "Dango998",
+                "description": "Simplified Chinese translation"
+            }
+        ],
+        "gast": [
+            {
+                "hash": "3df508b",
+                "author": "gast",
+                "description": "Traditional Chinese translation"
+            }
+        ],
+        "kenciccio": [
+            {
+                "hash": "b2906e7",
+                "author": "kenciccio",
+                "description": "Italian translation"
+            }
+        ]
+    },
+    "attributions": [
+        {
+            "description": "blood, hospital icons",
+            "author": "srip",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/authors/srip"
+        },
+        {
+            "description": "scalpel icon",
+            "author": "Freepik",
+            "license": "BY-NC",
+            "url": "https://freepik.com/"
+        },
+        {
+            "description": "heart icon",
+            "author": "Good Ware",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/free-icon/heart_684262"
+        },
+        {
+            "description": "finger icon",
+            "author": "Smashicons",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/free-icon/finger_139497"
+        }
+    ]
+}
