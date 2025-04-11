@@ -12,6 +12,7 @@ using static Pharmacist.Constants;
 using static Pharmacist.Resources;
 
 namespace Pharmacist {
+    [StaticConstructorOnStartup]
     public class MainTabWindow_Pharmacist: MainTabWindow {
         public override Vector2 InitialSize => new Vector2(
             CareSelectorWidth + OptionsWidth + Constants.Margin + (2 * Margin),
