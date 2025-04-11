@@ -1,7 +1,7 @@
 ==========
 Pharmacist
 ==========
-.. image:: About/preview.png
+.. image:: About/Preview.png
 
 Control what kind of medicine is used for different pawn types with varying severities of injury.
 
