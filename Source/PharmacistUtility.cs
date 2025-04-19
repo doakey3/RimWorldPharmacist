@@ -20,8 +20,9 @@ namespace Pharmacist
     public enum Population
     {
         Colonist,
-        Prisoner,
         Guest,
+        Slave,
+        Prisoner,
         Animal
     }
 
@@ -109,6 +110,10 @@ namespace Pharmacist
             if (patient.RaceProps.Animal)
             {
                 return Population.Animal;
+            }
+            if (patient.IsSlave)
+            {
+                return Population.Slave;
             }
 
             if (patient.IsColonist)

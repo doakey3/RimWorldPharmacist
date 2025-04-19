@@ -8,6 +8,7 @@
 	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
 
 	<Fluffy.Pharmacist.Population.Colonist>Colonists</Fluffy.Pharmacist.Population.Colonist>
+    <Fluffy.Pharmacist.Population.Slave>Slaves</Fluffy.Pharmacist.Population.Slave>
 	<Fluffy.Pharmacist.Population.Prisoner>Prisoners</Fluffy.Pharmacist.Population.Prisoner>
 	<Fluffy.Pharmacist.Population.Animal>Animals</Fluffy.Pharmacist.Population.Animal>
 	<Fluffy.Pharmacist.Population.Guest>Guests</Fluffy.Pharmacist.Population.Guest>

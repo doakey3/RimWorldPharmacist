@@ -230,9 +230,10 @@ namespace Pharmacist {
         {
             return pop switch
             {
-                Population.Colonist => PharmacistSettings.autoTransfuseColonists,
-                Population.Prisoner => PharmacistSettings.autoTransfusePrisoners,
-                Population.Guest => PharmacistSettings.autoTransfuseGuests,
+                Population.Colonist => PharmacistSettings.autoTransfuseColonist,
+                Population.Guest => PharmacistSettings.autoTransfuseGuest,
+                Population.Slave => PharmacistSettings.autoTransfuseSlave,
+                Population.Prisoner => PharmacistSettings.autoTransfusePrisoner,
                 _ => false
             };
         }
@@ -242,13 +243,16 @@ namespace Pharmacist {
             switch (pop)
             {
                 case Population.Colonist:
-                    PharmacistSettings.autoTransfuseColonists = enabled;
-                    break;
-                case Population.Prisoner:
-                    PharmacistSettings.autoTransfusePrisoners = enabled;
+                    PharmacistSettings.autoTransfuseColonist = enabled;
                     break;
                 case Population.Guest:
-                    PharmacistSettings.autoTransfuseGuests = enabled;
+                    PharmacistSettings.autoTransfuseGuest = enabled;
+                    break;
+                case Population.Slave:
+                    PharmacistSettings.autoTransfuseSlave = enabled;
+                    break;
+                case Population.Prisoner:
+                    PharmacistSettings.autoTransfusePrisoner = enabled;
                     break;
             }
         }

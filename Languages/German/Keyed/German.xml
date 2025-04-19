@@ -9,6 +9,7 @@
 
 	<Fluffy.Pharmacist.Population.Colonist>Kolonist</Fluffy.Pharmacist.Population.Colonist>
 	<Fluffy.Pharmacist.Population.Prisoner>Gefangene</Fluffy.Pharmacist.Population.Prisoner>
+    <Fluffy.Pharmacist.Population.Slave>Sklaven</Fluffy.Pharmacist.Population.Slave>
 	<Fluffy.Pharmacist.Population.Animal>Tiere</Fluffy.Pharmacist.Population.Animal>
 	<Fluffy.Pharmacist.Population.Guest>Besucher</Fluffy.Pharmacist.Population.Guest>
 

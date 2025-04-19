@@ -10,9 +10,11 @@ namespace Pharmacist {
     public class PharmacistSettings: WorldComponent {
         public static MedicalCare medicalCare;
 
-        public static bool autoTransfuseColonists;
-        public static bool autoTransfusePrisoners;
-        public static bool autoTransfuseGuests;
+        public static bool autoTransfuseColonist;
+        public static bool autoTransfuseGuest;
+        public static bool autoTransfuseSlave;
+        public static bool autoTransfusePrisoner;
+
         public static float hemogenThreshold;
 
         public PharmacistSettings(World world) : base(world) {
@@ -101,10 +103,16 @@ namespace Pharmacist {
                 MedicalCareCategory.Best);
 
             medicalCare[Population.Guest] = new PopulationCare(
-                MedicalCareCategory.NoMeds,
                 MedicalCareCategory.HerbalOrWorse,
                 MedicalCareCategory.NormalOrWorse,
-                MedicalCareCategory.NormalOrWorse);
+                MedicalCareCategory.Best,
+                MedicalCareCategory.Best);
+
+            medicalCare[Population.Slave] = new PopulationCare(
+                MedicalCareCategory.HerbalOrWorse,
+                MedicalCareCategory.NormalOrWorse,
+                MedicalCareCategory.Best,
+                MedicalCareCategory.Best);
 
             medicalCare[Population.Prisoner] = new PopulationCare(
                 MedicalCareCategory.NoMeds,
@@ -118,19 +126,22 @@ namespace Pharmacist {
                 MedicalCareCategory.NormalOrWorse,
                 MedicalCareCategory.NormalOrWorse);
 
-            autoTransfuseColonists = false;
-            autoTransfusePrisoners = false;
-            autoTransfuseGuests    = false;
-            hemogenThreshold       = 0.4f;
+            autoTransfuseColonist = false;
+            autoTransfuseGuest    = false;
+            autoTransfuseSlave    = false;
+            autoTransfusePrisoner = false;
+            autoTransfuseGuest    = false;
+            hemogenThreshold      = 0.4f;
         }
 
         public override void ExposeData() {
             base.ExposeData();
             Scribe_Deep.Look(ref medicalCare, "PharmacistSettings");
 
-            Scribe_Values.Look(ref autoTransfuseColonists, "autoTransfuseColonists", false);
-            Scribe_Values.Look(ref autoTransfusePrisoners, "autoTransfusePrisoners", false);
-            Scribe_Values.Look(ref autoTransfuseGuests,    "autoTransfuseGuests",    false);
+            Scribe_Values.Look(ref autoTransfuseColonist, "autoTransfuseColonist", false);
+            Scribe_Values.Look(ref autoTransfuseGuest, "autoTransfuseGuest", false);
+            Scribe_Values.Look(ref autoTransfuseSlave, "autoTransfuseSlave", false);
+            Scribe_Values.Look(ref autoTransfusePrisoner, "autoTransfusePrisoner", false);
             Scribe_Values.Look(ref hemogenThreshold,       "hemogenThreshold",       0.4f);
         }
     }

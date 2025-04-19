@@ -16,9 +16,10 @@ namespace Pharmacist
             if (bloodLoss == null || bloodLoss.Severity < PharmacistSettings.hemogenThreshold)
                 return;
 
-            bool enableTransfusion = pawn.IsColonist ? PharmacistSettings.autoTransfuseColonists :
-                                   pawn.IsPrisoner ? PharmacistSettings.autoTransfusePrisoners :
-                                   pawn.HostFaction != null ? PharmacistSettings.autoTransfuseGuests : false;
+            bool enableTransfusion = pawn.IsSlave ? PharmacistSettings.autoTransfuseSlave :
+                pawn.IsColonist ? PharmacistSettings.autoTransfuseColonist :
+                pawn.IsPrisoner ? PharmacistSettings.autoTransfusePrisoner :
+                pawn.HostFaction != null ? PharmacistSettings.autoTransfuseGuest : false;
 
             if (!enableTransfusion)
                 return;
